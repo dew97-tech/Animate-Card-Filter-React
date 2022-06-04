@@ -11,6 +11,7 @@ img {
     object-fit: cover;
     border-radius: 1rem;
     margin-bottom: 1rem;
+    box-shadow: 10px 10px 9px rgba(44, 41, 41, 0.459);
 }
 h2 {
     font-size: 0.8rem;
@@ -24,12 +25,19 @@ h2 {
     background: white;
     color: rgb(144, 145, 247);
     border-radius: 1rem;
-    border: 2px solid rgba(105, 131, 168, 0.774);
+    /* border: 2px solid rgba(105, 131, 168, 0.774); */
     font-weight: bold;
     cursor: pointer;
 }
 
 button.active {
     background: rgb(144, 145, 247);
+    background-image: linear-gradient(
+        to top right,
+        rgb(174, 175, 255),
+        rgb(89, 92, 255)
+    );
+    /* border: 2px solid rgb(144, 145, 247); */
     color: white;
+    box-shadow: 5px 5px 10px rgba(44, 41, 41, 0.459);
 }
